@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "704701399569",
+    "project_id": "sekolah-beta-firebase",
+    "storage_bucket": "sekolah-beta-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704701399569:android:9b5cb374899d3f03f6a7b0",
+        "android_client_info": {
+          "package_name": "com.example.sekolah_beta_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA31Lrc4O8PuyVUa79XlBs_OhVAOkIihpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704701399569:android:b6f616377b949b86f6a7b0",
+        "android_client_info": {
+          "package_name": "com.example.sekolah_beta_note_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA31Lrc4O8PuyVUa79XlBs_OhVAOkIihpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704701399569:android:05a743852a0ffdd2f6a7b0",
+        "android_client_info": {
+          "package_name": "com.example.sekolah_beta_note_crud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA31Lrc4O8PuyVUa79XlBs_OhVAOkIihpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
