@@ -39,7 +39,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Simple Note Taking App'),
+      home: const MyHomePage(
+          title: 'Aplikasi Simpel Penyimpanan Note dengan Firestore'),
     );
   }
 }
@@ -112,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   IconButton(
-                                    icon: Icon(Icons.edit),
+                                    icon: const Icon(Icons.edit),
                                     onPressed: () {
                                       // Navigate to the EditPage
                                       Navigator.push(
@@ -124,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     },
                                   ),
                                   IconButton(
-                                    icon: Icon(Icons.delete),
+                                    icon: const Icon(Icons.delete),
                                     onPressed: () {
                                       // Delete the document from Firestore
                                       db
