@@ -60,7 +60,10 @@ class _EditPageState extends State<EditPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Note berisi $noteValue'),
+            Text(
+              'Note berisi: \'$noteValue\'',
+              style: const TextStyle(fontSize: 20), // Increase the font size to 20
+            ),
             const SizedBox(height: 16),
             Padding(
               padding: const EdgeInsets.symmetric(
