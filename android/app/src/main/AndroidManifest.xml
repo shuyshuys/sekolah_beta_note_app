@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="sekolah_beta_note_app"
+        android:label="Aplikasi Tulis Menulis"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
